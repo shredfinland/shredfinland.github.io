@@ -1,7 +1,6 @@
-baseURL: "https://shred.fi/"
+baseURL: "https://shredfinland.github.io/"
 title: SHRED FINLAND
 paginate: 5
-#theme: charlolamode
 
 
 
