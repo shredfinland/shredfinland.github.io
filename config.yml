@@ -1,0 +1,90 @@
+baseURL: "https://shredfinland.github.io/"
+title: SHRED FINLAND
+paginate: 5
+#theme: charlolamode
+
+
+
+menu:
+    main:
+        #- name: Contact
+        #  url: /contact/
+        #  weight: 30
+        #- name: Contact
+        #  url: /contact/
+        #  weight: 25
+        - name: Blog
+          url: /blog/
+          weight: 20
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+   
+
+
+params:
+    author: Shred Finland
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Shredders of the World!
+        description: |
+
+          Discover the untamed realm of mountain biking in Finland, where tales of bravery are written in blood on every trail. Push your limits on grueling enduro courses, conquer DH challenges, and unleash your skills on massive jumps in the bike parks and urban landscapes.
+        
+
+        imageUrl: "/images/profile.png"
+        imageTitle: Shred Finland
+        imageWidth: 240
+        imageHeight: 240
+        #buttons:
+        #    - name: Don't click me
+        #      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: facebook
+          url: https://www.facebook.com/shred.finland
+        - name: instagram
+          url: https://www.instagram.com/shred.finland
+        - name: youtube
+          url: https://www.youtube.com/@shred.finland
+        - name: email
+          url: mailto:shred.finland@gmail.com
+      # add more social icons. find more in svg.html file
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
